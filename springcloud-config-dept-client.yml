@@ -9,7 +9,7 @@ server:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml     # mybatis配置文件所在路径
-  type-aliases-package: com.bdqn.springcloud.entity    # 所有Entity别名类所在包
+  type-aliases-package: com.yg.erp.model    # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
@@ -40,7 +40,7 @@ eureka:
 
 info:
   app.name: bdqn-springcloud
-  company.name: www.bdqn.com
+  company.name: www.yg.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
   
